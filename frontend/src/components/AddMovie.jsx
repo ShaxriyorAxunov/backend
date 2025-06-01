@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import '../styles/addMovie.css';
 
-const API_URL = 'https://backend-4fr3.onrender.com'
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function AddMovie() {
   const [title, setTitle] = useState('')
