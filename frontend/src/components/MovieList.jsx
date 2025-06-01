@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import '../styles/movieList.css';
+import React from 'react';
 
 const API_URL = 'https://backend-4fr3.onrender.com'
 

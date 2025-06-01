@@ -2,6 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import '../styles/addMovie.css';
+import React from 'react';
 
 const API_URL = 'https://backend-4fr3.onrender.com'
 
