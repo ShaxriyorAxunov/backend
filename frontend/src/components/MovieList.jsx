@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 import '../styles/movieList.css';
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = 'https://backend-4fr3.onrender.com'
 
 export default function MovieList() {
   const [movies, setMovies] = useState([])
